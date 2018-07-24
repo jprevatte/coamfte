@@ -1,0 +1,37 @@
+/*===== NAVIGATION =====*/
+.nav-primary{
+	div, ul, li{
+		background-color: #fff;
+		padding: 0px !important;
+		margin: 0px !important;
+
+	/*	@media screen and #{$tabletMin}{
+			padding: 0px !important;
+			margin: 0px !important;
+		}*/
+	}
+	.MegaDropDownMenu{
+		border: 1px solid $brandGray;
+	}
+	.RadMenu.RadMenu_Austin .rmRootLink.rmSelected{
+		background-color: $brandOrange; 
+	}
+	.RadMenu.RadMenu_Austin .rmRootLink.rmExpanded, .RadMenu.RadMenu_Austin .rmRootLink:hover, .RadMenu.RadMenu_Austin .rmRootLink:focus{
+		background-color: $brandOrange;
+	}
+	.RadMenu.RadMenu_Austin .rmLink, .RadMenu.RadMenu_Austin .rsmLink{
+		background-color: #fff;
+		color: $brandGray;
+		padding: 7px 20px !important;
+		display: block;
+
+		/*@media screen and #{$tabletMin}{
+			padding: 7px 20px !important;
+		}*/
+		
+
+		&:hover{
+			background-color: $brandOrange;
+		}
+	}
+}

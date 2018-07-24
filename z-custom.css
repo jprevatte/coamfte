@@ -1,0 +1,260 @@
+/* z-custom.scss */
+/*===== NAVIGATION =====*/
+.nav-primary div, .nav-primary ul, .nav-primary li {
+  background-color: #fff;
+  padding: 0px !important;
+  margin: 0px !important;
+  /*	@media screen and (min-width: 768px){
+  		padding: 0px !important;
+  		margin: 0px !important;
+  	}*/ }
+.nav-primary .MegaDropDownMenu {
+  border: 1px solid #4D5150; }
+.nav-primary .RadMenu.RadMenu_Austin .rmRootLink.rmSelected {
+  background-color: #F89A1C; }
+.nav-primary .RadMenu.RadMenu_Austin .rmRootLink.rmExpanded, .nav-primary .RadMenu.RadMenu_Austin .rmRootLink:hover, .nav-primary .RadMenu.RadMenu_Austin .rmRootLink:focus {
+  background-color: #F89A1C; }
+.nav-primary .RadMenu.RadMenu_Austin .rmLink, .nav-primary .RadMenu.RadMenu_Austin .rsmLink {
+  background-color: #fff;
+  color: #4D5150;
+  padding: 7px 20px !important;
+  display: block;
+  /*@media screen and (min-width: 768px){
+  	padding: 7px 20px !important;
+  }*/ }
+  .nav-primary .RadMenu.RadMenu_Austin .rmLink:hover, .nav-primary .RadMenu.RadMenu_Austin .rsmLink:hover {
+    background-color: #F89A1C; }
+
+/* _interior.scss */
+h2 a, h3 a, h4 a {
+  text-decoration: none; }
+  h2 a:hover, h3 a:hover, h4 a:hover {
+    text-decoration: underline; }
+
+/*==== HIDE DEFAULT SECONDARY (SIDE) NAVIGATION ====*/
+.has-secondary-col .col-secondary {
+  display: none; }
+
+.has-secondary-col .col-primary {
+  width: 100%; }
+
+/*===== HOMEPAGE =====*/
+@media screen and (min-width: 992px) {
+  .home .row1 {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap; } }
+.home .panel-body {
+  padding: 0px; }
+@media screen and (min-width: 768px) {
+  .home div[class*="col-md"] {
+    padding: 0px; } }
+.home .slider .ContentItemContainer {
+  margin: 0px; }
+.home .slider .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.4); }
+.home .buttons div {
+  height: 100%; }
+.home .buttons [id*="Panel_NewContentHtml"] {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+.home .buttons h2 {
+  padding: 0px;
+  margin: 0px;
+  height: 25%; }
+  .home .buttons h2 + h2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-top: 2px solid #fff; }
+.home .buttons a {
+  text-decoration: none;
+  color: #fff;
+  background: #4D5150;
+  display: table;
+  width: 100%;
+  font-size: 18px;
+  padding: 5px 20px;
+  height: 100%;
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 1px; }
+  .home .buttons a:hover {
+    opacity: 0.9; }
+  .home .buttons a span {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 23px; }
+    @media screen and (max-width: 991px) {
+      .home .buttons a span {
+        line-height: 50px; } }
+.home .row.row2 a {
+  color: #4D5150;
+  text-decoration: none; }
+  .home .row.row2 a:hover {
+    text-decoration: underline; }
+
+/* _sidebar.scss */
+.interior .side .feed .ContentHtml h3:first-child {
+  margin-top: 0px; }
+.interior .side .feed .panel-body {
+  padding: 0px;
+  position: relative;
+  top: -7px; }
+
+/* _t2-landingPage.scss */
+.t2 .primary .WebPartZone .ContentItemContainer > div:first-child {
+  border-top: 15px solid #9A1C1F;
+  padding-top: 15px;
+  padding-bottom: 20px; }
+  .t2 .primary .WebPartZone .ContentItemContainer > div:first-child:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .t2 .primary .WebPartZone .ContentItemContainer > div:first-child h6 {
+    float: left;
+    max-width: 45%;
+    padding-right: 15px; }
+.t2 .secondary .WebPartZone .ContentItemContainer > div:first-child {
+  border-top: 7px solid #F89A1C;
+  padding-top: 15px; }
+  .t2 .secondary .WebPartZone .ContentItemContainer > div:first-child h6 {
+    max-height: 150px;
+    overflow-y: hidden; }
+    .t2 .secondary .WebPartZone .ContentItemContainer > div:first-child h6 img {
+      width: 100%;
+      max-width: 350px;
+      height: auto; }
+.t2 .tertiary {
+  border-top: 7px solid #01488A;
+  padding-top: 15px; }
+
+/* _special-pages.scss */
+/*================= PROGRAM PUBLIC PROFILE ====================*/
+.proginfo tbody > tr:first-child .PanelField > div:first-child {
+  display: none !important; }
+
+.proginfo tbody > tr:first-child .PanelField > div span {
+  font-size: 1.75em;
+  font-weight: bold !important; }
+
+.coamfteprofdisp thead {
+  display: none; }
+
+/*=========== ACCREDITED SCHOOLS IQA SEARCH =====================*/
+fieldset .PanelHead h2 {
+  display: none; }
+
+[id*="QueryMenuCommon_ResultsGrid"] {
+  overflow: visible !important; }
+
+/*========== EXPANDING SECTIONS ===============*/
+.pancol.faq .toggle-content {
+  display: none;
+  margin: 15px; }
+
+.pancol.faq .toggler:before {
+  content: "+";
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+  padding: 0 0 0 2px;
+  margin: 0 15px 0 7px;
+  text-align: center;
+  line-height: 19px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #4560AC;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+  top: 1px; }
+
+.pancol.faq .toggler.open:before {
+  content: "-";
+  line-height: 15px;
+  overflow: hidden; }
+
+.pancol.faq .toggler {
+  border: 1px solid #4560AC;
+  margin: 0 0 15px;
+  padding: 5px;
+  background-color: #4560AC;
+  border-radius: 5px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 30px; }
+
+.pancol.faq .toggle-content > *:first-child {
+  margin-top: 0px; }
+
+.pancol.faq .toggle-content > *:last-child {
+  margin-bottom: 0px; }
+
+.faq .rtsLevel a {
+  font-size: 24px;
+  line-height: 40px;
+  border: none !important; }
+
+.faq .rtsLevel a:hover {
+  background-color: #ffcd91; }
+
+.faq .RadTabStripTop_Metro .rtsLevel1, .faq .RadTabStripTop_Metro .rtsLevel1 .rtsUL, .faq .faq .RadTabStrip_Metro .rtsLevel1, .RadTabStrip_Metro .rtsLevel1 .rtsUL {
+  background: #F89922 !important; }
+
+.acrp .toggle-content {
+  display: none; }
+
+.acrp .toggler {
+  border: 1px solid #4560AC;
+  margin: 0 0 15px;
+  padding: 5px;
+  background-color: #4560AC;
+  border-radius: 5px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 18px; }
+
+.acrp .toggler em {
+  display: inline-block;
+  padding: 0 10px;
+  background: #fff;
+  color: #4560AC;
+  font-style: normal;
+  font-weight: 800;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 10px 0 1px; }
+
+h2:hover {
+  cursor: pointer; }
+
+.faq .RadTabStripTop_Metro .rtsLevel1, .faq .RadTabStripTop_Metro .rtsLevel1 .rtsUL, .faq .faq .RadTabStrip_Metro .rtsLevel1, .RadTabStrip_Metro .rtsLevel1 .rtsUL {
+  background: #9A1C1F !important; }
+
+.faq .rtsLevel a:hover {
+  background-color: rgba(255, 255, 255, 0.4); }
+
+.faq .rtsTxt {
+  color: #fff;
+  text-transform: initial; }
+
+.faq .rtsSelected .rtsTxt {
+  color: #000; }
+
+/*============ ACCREDITATION RESOURCES & ABOUT COAMFTE ========*/
+.col-boxes.about-coamfte .ContentBorder > div:first-child {
+  height: 350px;
+  overflow: hidden; }
+.col-boxes.accred-resource .ContentBorder > div:first-child {
+  height: 290px;
+  overflow: hidden; }
+.col-boxes h2 {
+  height: 80px; }
+
+/*# sourceMappingURL=z-custom.css.map */

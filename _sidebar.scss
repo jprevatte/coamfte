@@ -1,0 +1,16 @@
+/* _sidebar.scss */
+
+.interior .side{
+	.feed{
+		.ContentHtml{
+			h3:first-child{
+				margin-top: 0px;
+			}
+		}
+		.panel-body{
+			padding: 0px;
+			position: relative;
+			top: -7px;
+		}
+	}
+}

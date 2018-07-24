@@ -1,0 +1,136 @@
+/* _special-pages.scss */
+
+/*================= PROGRAM PUBLIC PROFILE ====================*/
+.proginfo tbody > tr:first-child .PanelField > div:first-child{
+  display: none !important;
+}
+.proginfo tbody > tr:first-child .PanelField > div span{
+  font-size: 1.75em;
+  font-weight: bold !important;
+}
+.coamfteprofdisp thead{
+  display: none;
+}
+
+/*=========== ACCREDITED SCHOOLS IQA SEARCH =====================*/
+fieldset .PanelHead h2{
+  display: none;
+}
+[id*="QueryMenuCommon_ResultsGrid"]{
+  overflow: visible !important;
+}
+
+/*========== EXPANDING SECTIONS ===============*/
+.pancol.faq .toggle-content{
+  display: none;
+  margin: 15px;
+}
+.pancol.faq .toggler:before{
+  content: "+";
+  display: inline-block;
+  border: 1px solid #fff;
+  height: 20px;
+  width: 20px;
+  padding: 0 0 0 2px;
+  margin: 0 15px 0 7px;
+  text-align: center;
+  line-height: 19px;
+  border-radius: 20px;
+  background-color: #fff;
+  color: #4560AC;
+  font-weight: bold;
+  overflow: hidden;
+  position: relative;
+  top: 1px;
+}
+.pancol.faq .toggler.open:before{
+  content: "-";
+  line-height: 15px;
+  overflow: hidden;
+}
+.pancol.faq .toggler{
+  border: 1px solid #4560AC;
+  margin: 0 0 15px;
+  padding: 5px;
+  background-color: #4560AC;
+  border-radius: 5px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 30px;
+}
+.pancol.faq .toggle-content > *:first-child{
+  margin-top: 0px;
+}
+.pancol.faq .toggle-content > *:last-child{
+  margin-bottom: 0px;
+}
+
+
+.faq .rtsLevel a{
+  font-size: 24px;
+  line-height: 40px;
+  border: none !important;
+}
+.faq .rtsLevel a:hover{
+  background-color: #ffcd91;
+}
+.faq .RadTabStripTop_Metro .rtsLevel1, .faq .RadTabStripTop_Metro .rtsLevel1 .rtsUL, .faq .faq .RadTabStrip_Metro .rtsLevel1, .RadTabStrip_Metro .rtsLevel1 .rtsUL{
+  background: #F89922 !important;
+}
+
+.acrp .toggle-content{
+  display: none;
+}
+.acrp .toggler {
+    border: 1px solid #4560AC;
+    margin: 0 0 15px;
+    padding: 5px;
+    background-color: #4560AC;
+    border-radius: 5px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+.acrp .toggler em{
+  display: inline-block;
+  padding: 0 10px;
+  background: #fff;
+  color: #4560AC;
+  font-style: normal;
+  font-weight: 800;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 10px 0 1px;
+}
+h2:hover{
+  cursor: pointer;
+}
+
+.faq .RadTabStripTop_Metro .rtsLevel1, .faq .RadTabStripTop_Metro .rtsLevel1 .rtsUL, .faq .faq .RadTabStrip_Metro .rtsLevel1, .RadTabStrip_Metro .rtsLevel1 .rtsUL{
+  background: #9A1C1F !important;
+}
+.faq .rtsLevel a:hover {
+    background-color: rgba(255,255,255,0.4);
+}
+.faq .rtsTxt{
+  color: #fff;
+  text-transform: initial;
+}
+.faq .rtsSelected .rtsTxt{
+  color: #000;
+}
+
+/*============ ACCREDITATION RESOURCES & ABOUT COAMFTE ========*/
+.col-boxes{
+	&.about-coamfte .ContentBorder > div:first-child{
+		height: 350px;
+		overflow: hidden;
+	}
+	&.accred-resource .ContentBorder > div:first-child{
+		height: 290px;
+		overflow: hidden;
+	}
+	h2{
+	  height: 80px;
+	}
+}

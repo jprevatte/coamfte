@@ -1,0 +1,17 @@
+/* _interior.scss */
+
+h2 a, h3 a, h4 a{
+	text-decoration: none;
+
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+/*==== HIDE DEFAULT SECONDARY (SIDE) NAVIGATION ====*/
+.has-secondary-col .col-secondary {
+    display: none;
+}
+.has-secondary-col .col-primary {
+    width: 100%;
+}
