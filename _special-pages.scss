@@ -31,7 +31,7 @@ fieldset .PanelHead h2{
   border: 1px solid #fff;
   height: 20px;
   width: 20px;
-  padding: 0 0 0 2px;
+  padding: 0 0 0 1px;
   margin: 0 15px 0 7px;
   text-align: center;
   line-height: 19px;
@@ -41,7 +41,7 @@ fieldset .PanelHead h2{
   font-weight: bold;
   overflow: hidden;
   position: relative;
-  top: 1px;
+  top: 4px;
 }
 .pancol.faq .toggler.open:before{
   content: "-";
@@ -56,7 +56,7 @@ fieldset .PanelHead h2{
   border-radius: 5px;
   line-height: 30px;
   color: #fff;
-  font-size: 30px;
+  font-size: 18px;
 }
 .pancol.faq .toggle-content > *:first-child{
   margin-top: 0px;
