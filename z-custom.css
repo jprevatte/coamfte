@@ -250,4 +250,13 @@ h2:hover {
 .col-boxes h2 {
   height: 80px; }
 
+/* _shared.scss */
+/* Tabbed navigation */
+html .RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected, html .RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected:hover {
+  border-color: #9B1C20;
+  background-color: #9B1C20; }
+
+.RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 {
+  border-color: #9B1C20; }
+
 /*# sourceMappingURL=z-custom.css.map */
