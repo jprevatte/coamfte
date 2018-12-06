@@ -124,6 +124,13 @@ h2:hover{
 		overflow: hidden;
 	}
 	h2{
-	  height: 80px;
-	}
+    background-color: #f9f9f9;
+    margin: 0;
+    border-color: #bbb;
+    padding: 5px 10px;
+    height: 87px !important;
+  }
+  h2 a{
+    color: #037;
+  }
 }
