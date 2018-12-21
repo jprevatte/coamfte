@@ -241,15 +241,26 @@ h2:hover {
   color: #000; }
 
 /*============ ACCREDITATION RESOURCES & ABOUT COAMFTE ========*/
-.col-boxes.about-coamfte .ContentBorder > div:first-child {
-  height: 350px;
-  overflow: hidden; }
-.col-boxes.accred-resource .ContentBorder > div:first-child {
-  height: 290px;
-  overflow: hidden; }
-.col-boxes h2 {
-  height: 80px; }
-
+/*.col-boxes{
+	&.about-coamfte .ContentBorder > div:first-child{
+		height: 350px;
+		overflow: hidden;
+	}
+	&.accred-resource .ContentBorder > div:first-child{
+		height: 290px;
+		overflow: hidden;
+	}
+	h2{
+    background-color: #f9f9f9;
+    margin: 0;
+    border-color: #bbb;
+    padding: 5px 10px;
+    height: 87px !important;
+  }
+  h2 a{
+    color: #037;
+  }
+}*/
 /* _shared.scss */
 /* Tabbed navigation */
 html .RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected, html .RadTabStrip.RadTabStrip_MetroTouch .rtsLevel1 .rtsSelected:hover {
